@@ -4,9 +4,7 @@ import pandas as pd
 
 def load_latest_csv():
 
-    data_folder = Path(
-        "Dashboard/Dashboard/data"
-    )
+    data_folder = Path("data")
 
     csv_files = list(
         data_folder.glob("*.csv")
